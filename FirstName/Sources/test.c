@@ -5,6 +5,7 @@ Date: 06/21/2019
 */
 
 #include <stdio.h>
+#include <stdbool.h>
 
 /*int main()*/
 /*{*/
@@ -36,10 +37,37 @@ Date: 06/21/2019
   /*return 0;*/
 /*}*/
 
+/*int main()*/
+/*{*/
+  /*int x = 12;*/
+  /*x = 1212;*/
+
+  /*return 0;*/
+/*}*/
+
+/*int main()*/
+/*{*/
+  /*float jon = 31.333;*/
+  /*double jon2 = 56.666666666666666666e+11;*/
+  /*bool boolVariable = true;*/
+  /*bool anotherBoolean = false;*/
+  /*return 0;*/
+/*}*/
+
+/*int main()*/
+/*{*/
+  /*enum gender { male, female };*/
+  /*enum gender myGender;*/
+  /*myGender = male;*/
+
+  /*enum gender anotherGender = female;*/
+  /*bool isMale = (myGender == anotherGender);*/
+  /*return 0;*/
+/*}*/
+
 int main()
 {
-  int x = 12;
-  x = 1212;
-
+  char myCharacter = '\n';
+  printf("%c", myCharacter);
   return 0;
 }
