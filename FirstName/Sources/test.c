@@ -28,10 +28,18 @@ Date: 06/21/2019
   /*return 0;*/
 /*}*/
 
+/*int main()*/
+/*{*/
+  /*double x;*/
+
+  /*scanf("%lf", &x);*/
+  /*return 0;*/
+/*}*/
+
 int main()
 {
-  double x;
+  int x = 12;
+  x = 1212;
 
-  scanf("%lf", &x);
   return 0;
 }
