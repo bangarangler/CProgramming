@@ -89,8 +89,21 @@ Date: 06/21/2019
   /*printf("boolVar = %i\n", boolVar);*/
 /*}*/
 
-int main()
+/*int main()*/
+/*{*/
+  /*float x = 3.9993232323;*/
+  /*printf("%.2f", x); //  4.00*/
+/*}*/
+
+int main(int argc, char *argv[])
+  //pass in command line arguments after build like so... ./test Jon
 {
-  float x = 3.9993232323;
-  printf("%.2f", x);
+  int numberOfArguments = argc;
+  char *argument1 = argv[0];
+  char *argument2 = argv[1];
+
+  printf("Number of Arguments: %d\n", numberOfArguments);
+  printf("Argument 1 is the program name: %s\n", argument1);
+  printf("Argument 2 is the command line argument: %s\n", argument2);
+  return 0;
 }
