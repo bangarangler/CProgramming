@@ -16,7 +16,7 @@ int main()
 {
   int minEntered = 0;
   double years = 0.0;
-  double days = 0.0;
+  int days = 0.0;
   double minInYear = 0;
 
   printf("Please enter the number of minutes: ");
@@ -24,8 +24,8 @@ int main()
   scanf("%d", &minEntered);
   minInYear = (60 * 24 * 365);
   years = (minEntered / minInYear);
-  days = ((minEntered / 60.0) / 24.0);
+  days = (int)((minEntered / 60.0) / 24.0);
 
-  printf("%d minutes is approximately %f years and %f days\n", minEntered, years, days);
+  printf("%d minutes is approximately %f years and %d days\n", minEntered, years, days);
   return 0;
 }
